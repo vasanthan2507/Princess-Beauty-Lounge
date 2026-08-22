@@ -232,18 +232,19 @@ img {
 /* Mobile Nav Menu */
 .nav-menu {
     position: fixed;
-    top: 0;
+    top: 60px;
     right: -100%;
     width: 80%;
     max-width: 320px;
-    height: 100vh;
-    height: 100dvh;
+    height: calc(100vh - 60px);
+    height: calc(100dvh - 60px);
     background: var(--white);
     box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
-    padding: 80px 32px 40px;
+    padding: 24px 32px 40px;
     transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow-y: auto;
     z-index: 1000;
+    border-radius: 16px 0 0 0;
 }
 
 .nav-menu.active {
