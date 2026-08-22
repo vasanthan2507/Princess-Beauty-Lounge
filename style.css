@@ -191,6 +191,7 @@ img {
     height: 40px;
     background: none;
     border: none;
+    outline: none;
     cursor: pointer;
     z-index: 1001;
     padding: 0;
